@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "placeholder",
+]
+
+exclude = [
+	"vendor",
+]
