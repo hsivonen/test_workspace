@@ -7,3 +7,17 @@ members = [
 exclude = [
 	"vendor",
 ]
+
+[profile.dev]
+opt-level = 1
+rpath = false
+lto = false
+debug-assertions = true
+panic = "abort"
+
+[profile.release]
+opt-level = 2
+rpath = false
+debug-assertions = false
+panic = "abort"
+codegen-units = 1
