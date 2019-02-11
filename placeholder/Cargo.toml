@@ -4,5 +4,8 @@ version = "0.1.0"
 authors = ["Henri Sivonen <hsivonen@hsivonen.fi>"]
 edition = "2018"
 
+[features]
+simd-accel = ["encoding_rs/simd-accel"]
+
 [dependencies]
-packed_simd = "0.3.3"
+encoding_rs = "0.8.16"
